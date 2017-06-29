@@ -253,6 +253,9 @@ public class OtpActivity extends AppCompatActivity implements View.OnClickListen
                             // [START_EXCLUDE]
                             updateUI(STATE_SIGNIN_SUCCESS, user);
                             Intent i =new Intent(OtpActivity.this,RegisterActivity.class);
+                            SharedPreferences p= PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                            p.edit().putString("Phone",mPhoneNumberField.getText().toString()).apply();
+
                             startActivity(i);
                             // [END_EXCLUDE]
                         } else {

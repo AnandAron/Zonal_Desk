@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZonalDesk.iml" filepath="$PROJECT_DIR$/ZonalDesk.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZonalDesk-master.iml" filepath="$PROJECT_DIR$/ZonalDesk-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZonalDeskpk.iml" filepath="$PROJECT_DIR$/ZonalDeskpk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zonal_Desk.iml" filepath="$PROJECT_DIR$/Zonal_Desk.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

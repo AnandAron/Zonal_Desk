@@ -66,76 +66,111 @@
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHint="#ffffff">
+                        android:textColorHint="@color/colorPrimaryDark">
 
                         <EditText
-                            android:id="@+id/editText2"
+                            android:maxLines="1"
+                            android:id="@+id/user_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="First Name" />
+                            android:hint="User Name" />
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHint="#ffffff">
+                        android:textColorHint="@color/colorPrimaryDark">
 
                         <EditText
-                            android:id="@+id/editText4"
+                            android:id="@+id/password"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="Last Name" />
+                            android:hint="Choose a password"
+                            android:imeActionId="@+id/login"
+                            android:imeActionLabel="signin"
+                            android:imeOptions="actionUnspecified"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:singleLine="true" />
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHint="#ffffff">
+                        android:textColorHint="@color/colorPrimaryDark">
 
                         <EditText
-                            android:id="@+id/editText6"
+                            android:id="@+id/email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="E-mail" />
+                            android:inputType="textEmailAddress"
+                            android:hint="E-mail" />
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHint="#ffffff">
+                        android:textColorHint="@color/colorPrimaryDark">
 
                         <EditText
-                            android:id="@+id/editText5"
+                            android:id="@+id/address"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="Address" />
+                            android:inputType="text"
+                            android:hint="Address" />
                     </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/colorPrimaryDark">
 
+                            <EditText
+                                android:id="@+id/pincode"
+                                android:hint="Pincode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="text"
+                                 />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/colorPrimaryDark">
 
+                            <EditText
+                                android:id="@+id/state"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="text"
+                                android:hint="State" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/registration_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sign In"
+                        android:background="@drawable/circular_btn"
+
+                        android:layout_centerHorizontal="true"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimary"/>
 
                 </LinearLayout>
-                <Button
-                    android:id="@+id/registration_submit"
-                    android:layout_width="150dp"
-                    android:layout_height="70dp"
-                    android:text="Sign In"
-                    android:background="@drawable/circular_btn"
-                    android:layout_below="@+id/linearLayout"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="20dp"
-                    android:textColor="@color/colorPrimary"/>
+
+
+
 
             </RelativeLayout>
 
